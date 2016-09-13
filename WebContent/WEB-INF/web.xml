@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
-  <display-name>loozhi</display-name>
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
-  </welcome-file-list>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>loozhi</display-name>
+
+	<servlet>
+		<servlet-name>buslineServlet</servlet-name>
+		<servlet-class>cn.loozhi.servlet.BuslineServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>buslineServlet</servlet-name>
+		<url-pattern>/buslineServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>stationServlet</servlet-name>
+		<servlet-class>cn.loozhi.servlet.StationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>stationServlet</servlet-name>
+		<url-pattern>/stationServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>transferServlet</servlet-name>
+		<servlet-class>cn.loozhi.servlet.TransferServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>transferServlet</servlet-name>
+		<url-pattern>/transferServlet</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+	</welcome-file-list>
 </web-app>
