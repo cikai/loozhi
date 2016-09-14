@@ -27,5 +27,13 @@
 		</select>
 		<button id="getBusline" class="btn btn-primary">获取线路</button>
 	</div>
+	
+	<div id="buslineInfo" class="buslineInfo">
+		<span id="name"></span>
+		<span id="front"></span>
+		<span id="terminal"></span>
+		<span id="price"></span>
+		<span id="stations"></span>
+	</div>
 </body>
 </html>

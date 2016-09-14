@@ -5,3 +5,13 @@
 	top: 25px;
 	left: 25px;
 }
+
+.buslineInfo {
+	position: absolute;
+	top: 100px;
+	left: 25px
+}
+
+.buslineInfo span {
+	display: block;
+}
