@@ -4,3 +4,4 @@
 
 欢迎随时-->[联系站长](mailto:cikai0923@gmail.com)
 
+站长博客 [blog.loozhi.cn](http://blog.loozhi.cn)

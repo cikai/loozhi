@@ -5,7 +5,7 @@
 <meta charset='utf-8'>
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="../assets/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="../assets/stylesheets/main.css" rel="stylesheet" type="text/css" />
 <script src="../assets/javascripts/jquery-3.0.0.min.js"></script>
 <script src="../assets/javascripts/main.js"></script>
